@@ -1,0 +1,15 @@
+server:
+  port: 8091
+
+spring:
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+  application:
+    name: java-graphql
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/graphql
+    username: postgres
+    password: postgres
